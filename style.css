@@ -1,0 +1,150 @@
+/* Font desde Googleapis */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+:root{
+   /* Fondo-Color */
+   --primary-color:#4458dc;
+   --secondary-color:#854fee;
+   --gradient:linear-gradient(to right,#4458dc 0%, #845fee 100%), radial-gradient(circle at top left,#4458dc, #854fee);
+   
+   /* Texto-Color */
+   --primary-text:#4458dc;
+   --secondary-text:#854fee;
+}
+
+body{
+   font-family: 'Roboto Condensed', sans-serif;
+   width: 100%;
+}
+
+a{
+   text-decoration: none;
+}
+
+section{
+   padding: 5rem 0;
+}
+
+h1{
+   font-size: 4rem;
+   font-family: 'Anton', sans-serif;
+}
+
+h2{
+   font-size: 2.9rem;
+   line-height: 3.4375rem;
+   font-weight: 500;
+   color: #000;
+   font-family: 'Anton', sans-serif;
+}
+
+p,.btn{
+   font-family: 'PT Sans Narrow', sans-serif;
+   font-weight: 700;
+}
+.navbar-nav a{
+   font-family: 'Merriweather', serif;
+   font-size: 15px;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
+.navbar-brand{
+   font-family: 'Permanent Marker', cursive;
+
+}
+.navbar-light .navbar-brand{
+   color: #000;
+   font-size: 25px;
+   text-transform: uppercase;
+   font-weight: 700;
+   letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+   color: #000;
+}
+
+.img{
+   max-width: 10vw;
+}
+
+.banner_wrapper .banner_content{
+   vertical-align: middle;
+   align-self: center;
+}
+
+.navbar-toggler-icon{
+   background-color: white;
+   color: white;
+}
+
+
+.banner_wrapper .banner_content h2::after{
+   content: ' ';
+   width: 70%;
+   height: .03rem;
+   position:absolute;
+   top: 50%;
+   left: 20%;
+   background-color: #000;
+   overflow-x: hidden;
+}
+
+.img2{
+   max-width: 40vw;
+}
+
+.about_wrapper,.logo-lang{
+   width: 100%;
+   height: 10rem;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: 0.5s;
+}
+
+.about_wrapper,.logo-lang:hover{
+  transform: scale(1.03, 1.03);
+}
+
+.card{
+   background-color: rgba(245, 245, 245, 0.182);
+   justify-content: center;
+   cursor: pointer;
+   transition: all .4s ease 0s; 
+   
+}
+
+.card:hover{
+   box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222/30%);
+   background-color: #ffffff;
+}
+
+.card-img-top{
+   max-width: 5vw;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.about-phrases{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/george-washington-bridge-2098351.jpg);
+   background-size: cover;
+   background-position: center 100%;
+   background-attachment: fixed;
+}
+
+.first-img{
+   animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}

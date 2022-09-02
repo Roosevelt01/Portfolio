@@ -1,0 +1,41 @@
+@media (max-width:767px) {
+   .navbar-nav{
+      text-align:center;
+   }
+
+   h1{
+      font-size: 2.05rem;
+   }
+
+   h2{
+      font-size: 1.8rem;
+      line-height: 1rem;
+   }
+
+   h2::after{
+      display: none;
+   }
+
+   h3{
+      font-size: 1.5rem;
+      line-height: 2rem;
+   }
+
+   .banner_wrapper{
+      text-align: center;
+   }
+
+   .about_img,h2{
+      text-align: center;
+      line-height: 1.98rem;
+   }
+
+   .about-pagr,.download_cv{
+      text-align: center;
+   }
+   
+   .card-img-top{
+      max-width: 20vw;
+   }
+
+}
